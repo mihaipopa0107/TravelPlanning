@@ -1,0 +1,134 @@
+[ 
+    {
+        "Name": "Bucovina",
+        "Description": "Ce iti vine in cap cand auzi Bucovina? Traditie, arta populara,  biserici si manastiri viu colorate. Cultura,  diversitate, oameni. Munti, depresiuni si dealuri. Si cate si mai cate sunt de spus despre Bucovina, dar parca nu sunt suficiente cuvinte. Daca inca nu ai vizitat Bucovina, iti recomand calduros sa o faci. Ai multe de vizitat, multa istorie de descoperit si multi oameni frumosi de cunoscut. E acel loc care te primeste cu caldura si care are pregatite tot felul de minunatii care sa-ti bucure privirea. E momentul pentru o vacanta in Bucovina.",
+        "LogoImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/09/IMG_4754.jpeg?resize=768%2C1024&ssl=1",
+        "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/09/IMG_4779.jpeg?resize=1536%2C1500&ssl=1",
+        "Country": "Romania",
+        "City": "Humor",
+        "Price": "4800",
+        "Objectives": ["Manastire Humor", "Manastirea Voronet", "Vale Humor Residence", "Salina Cacica", "Piatra Pinului si Soimului"],
+        "AvailableRooms": "184"
+    },
+    {
+        "Name": "King's Rock Cabin",
+        "Description": "Iti tot zboara gandul la munti inalti, paduri salbatice si poteci nedescoperite? Sau poate iti e dor de mirosul de lemn si aerul curat de munte? In cazul acesta, pregateste-te sa iti faci bagajul! Unde mergem, te intrebi? Intr-un loc linistit de unde poti admira frumusetea naturii pretutindeni. Intr-un loc in care modernismul se imbina cu natura intr-un spectacol ce are lemn, sticla si cer instelat. Si care e atat de aproape de tot ce e frumos, incat n-o sa iti mai vina sa pleci. In final, un loc in care te vei simti regeste.",
+        "LogoImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/09/IMG_9643.jpeg?resize=768%2C1024&ssl=1",
+        "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/09/IMG_9595.jpeg?resize=1536%2C1500&ssl=1",
+        "Country": "Romania",
+        "City": "Brasov",
+        "Price": "6472",
+        "Objectives": ["Castelul Bran", "Cetatea Rasnov", "Dino Park", "Sanctuarul de ursi", "Pestera", "Magura"],
+        "AvailableRooms": "96"
+    },
+    {
+        "Name": "Creta: Rethymno",
+        "Description": "Cum iti suna plimbari nesfarsite pe plaja, promenade pe alei inguste, ticsite de cafenele si buticuri? Iar in plimbarile tale sa fii intampinat la tot pasul de istorie si legende, in timp ce marea albastra iti face cu ochiul, iar linistea iti inunda sufletul. Sa mai adaug si un apus cretan, si sigur te-am castigat! Probabil deja te-ai prins ca destinatia in care vreau sa te port azi e Grecia. Dar oare unde anume in Grecia, te intrebi? Haide sa iti prezint cum poti avea o vacanta de vis in Creta.",
+        "LogoImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/08/adelianos-kampos-1.jpg?resize=768%2C578&ssl=1",
+        "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/08/IMG_3915.jpeg?resize=1536%2C1500&ssl=1",
+        "Country": "Grecia",
+        "City": "Rethymno",
+        "Price": "14580",
+        "Objectives": ["Fantana Rimondi", "Fortezza, fortareata venetiana din Rethymno", "Vechiul port venetian", "Plaja din Rethymno", "Moscheea Neratze", "Porta Guora", "Muzeul Arheologic din Rethymno", "Manastirea Arkadi"],
+        "AvailableRooms": "428"
+    },
+    {
+        "Name": "Iordania: Minunile lumii",
+        "Description": "Stiai ca in Iordania se afla una dintre minunile lumii? Sau ca aici gasesti cel mai jos punct de pe Pamant. Ori ca pe teritoriul sau se afla cel mai bine conservat oras antic greco-roman? Si daca continui sa citesti vei afla chiar mai multe despre mostenirea pe care aceasta tara din Orientul Mijlociu ne-o lasa. De la temple vechi de mii de ani si civilizatii antice, pana la peisaje desprinse din filmele SF, Iordania este un taram al istoriei bine conservate. Istorie pe care e pacat sa nu o afli si tu. De aceea, astazi te voi purta prin istorie si iti voi prezenta 6 atractii turistice in Iordania pe care le-am vizitat, locuri care sper sa ajunga pe lista ta de calatorii.",
+        "LogoImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/07/IMG_1806.jpeg?resize=768%2C1024&ssl=1",
+        "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/07/IMG_2317.jpeg?resize=1536%2C1500&ssl=1",
+        "Country": "Iordania",
+        "City": "Jerash",
+        "Price": "5400",
+        "Objectives": ["Regatul Hasemit al Iordaniei", "Petra, orasul sapat in piatra", "Wadi Rum", "Marea Moarta", "Rezervatia si satul Dana", "Jerash"],
+        "AvailableRooms": "272"
+    },
+    {
+        "Name": "Casa Maria",
+        "Description": "Ti-ar placea sa fii din nou copil? Sa te intorci atunci cand totul era mai simplu. Cand mergeai la tara si totul era doar iarba verde, natura si liniste. Cand mancai ciorba calda si bucate preparate direct in casa, proaspete si cu gust. Daca si tu te simti nostalgic si vrei sa evadezi din oras, iti recomand o cazare de poveste: Casa Maria din satul Simon.",
+        "LogoImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/07/IMG_8390.jpeg?resize=768%2C1024&ssl=1",
+        "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/07/IMG_8390.jpeg?resize=1536%2C1500&ssl=1",
+        "Country": "Romania",
+        "City": "Brasov",
+        "Price": "9000",
+        "Objectives": ["Castelul Bran", "Cascada Moara Dracului", "Rezervatia de ursi", "Cetatea Rasnov"],
+        "AvailableRooms": "288"
+    },
+    {
+        "Name": "Forest Lake",
+        "Description": "Stiai ca relaxarea in natura reduce stresul si creste productivitatea? Nu, nu incerc sa iti vand vreo formula magica care te scapa de griji. Ci mai degraba incerc sa iti prezint o realitate. Suntem constant grabiti si ocupati, incat uitam ca meritam si momente de rasfat. Iar dupa cum (probabil) stii, rasfatul in natura are cele mai bune efecte.",
+        "LogoImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/05/IMG_7148.jpeg?resize=768%2C1024&ssl=1",
+        "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/05/IMG_7158.jpeg?resize=1536%2C1500&ssl=1",
+        "Country": "Romania",
+        "City": "Cluj-Napoca",
+        "Price": "8680",
+        "Objectives": ["Lacul Tarnita", "Salina Turda", "Piatra lui Dan", "Piatra lui Lucaci", "Cheile Turzii", "Partia Marisel"],
+        "AvailableRooms": "2166"
+    },
+    {
+        "Name": "Delta Transilvaniei",
+        "Description": "O delta a Transilvaniei, un alt fel de Loch Ness, un univers subteran ce asteapta sa fie descoperit, un castel ce te poarta in trecut si multa, multa natura. Acesta e itinerarul nostru de azi. Suna neasteptat? Asa vor fi si atractiile turistice de care urmeaza sa iti spun. Si mai mult, toate se afla la maxim 40 de km distanta de Cluj, perfect pentru o escapada rapida sau pentru o minivacanta de succes.",
+        "LogoImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/06/IMG_6813.jpeg?resize=768%2C1024&ssl=1",
+        "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/06/IMG_6955.jpeg?resize=1536%2C1500&ssl=1",
+        "Country": "Romania",
+        "City": "Cluj-Napoca",
+        "Price": "4570",
+        "Objectives": ["Laguna Albastra", "Stufarisurile de la Sic", "Lacul Tarnita", "Piatra lui Lucaci", "Castelul Banfyy", "Mina Terezia", "Mina Rudolf", "Sala ecourilor", "Altarul", "Galeria Franz Josef"],
+        "AvailableRooms": "344"
+    },
+    {
+        "Name": "Biserica Sangelui Sfant",
+        "Description": "Ce-ti vine prima oara in minte cand te gandesti la Belgia? Daca raspunsul este , gofre belgiene si ciocolata, trebuie sa stii ca e pe jumatate corect. De ce? Pentru ca Belgia e mai mult de atat. Canale care serpuiesc molcom orasele, piete medievale desprinse din cartile de povesti, vile gotice si catedrale grandioase – cam acestea ar fi partile care fac din Belgia ceea ce este. O tara mica,  dar cocheta, cu atractii turistice si istorie la tot pasul. Daca iti pui in cap, poti vizita toata tara in foarte putin timp. Dar cum timpul tuturor e limitat, ti-am pregatit top 3 orase de vizitat in Belgia. Orase care te vor purta usor prin trecut si te vor face sa te simti ca intr-un basm.",
+        "LogoImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/05/IMG_8921.jpeg?resize=768%2C1024&ssl=1",
+        "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/05/IMG_8795.jpeg?resize=1536%2C1500&ssl=1",
+        "Country": "Belgia",
+        "City": "Bruges",
+        "Price": "18400",
+        "Objectives": ["Grote Markt", "Cetatea Namur", "Cetatea Dinant", "Meuse", "Catedrala Notre-Dame", "Casa lui Adolphe Sax", "Bruxelles", "Liege"],
+        "AvailableRooms": "304"
+    },
+    {
+        "Name": "London Eye",
+        "Description": "Cand te gandesti la Londra, ce iti vine intai in minte? In afara de Harry Potter,  bineinteles. Poate reprezentative sunt Big Ben sau London Eye, care apar pe atatia magneti de frigider. Sau ideea unui peisaj gri si mohorat, din cauza climei. Oricare ar fi imaginea pe care o ai despre Londra, astazi am sa te duc mai aproape de orasul de pe Tamisa.",
+        "LogoImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/03/IMG_5010.jpeg?resize=768%2C1024&ssl=1",
+        "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/03/IMG_5302.jpeg?resize=2000%2C1500&ssl=1",
+        "Country": "Anglia",
+        "City": "Londra",
+        "Price": "14800",
+        "Objectives": ["Turnul Londrei", "Ochiul Londrei", "Teatru Globe al lui Shakespeare", "Casele Parlamentului", "Big Ben", "Westminster Abbey"],
+        "AvailableRooms": "798"
+    },
+    {
+        "Name": "Hurghada",
+        "Description": "De la Marea Rosie, la plimbari pe camila si croaziere pe Nil, pana la mormintele celor mai celebri faraoni. 7 zile, 3 orase si 10 experiente de neuitat in Egipt, gata de impartasit cu tine. Ia-ti niste popcorn si fa-te comod: urmeaza o lectie de istorie.",
+        "LogoImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2021/12/IMG_1526.jpeg?resize=768%2C1024&ssl=1",
+        "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2021/12/IMG_0393.jpeg?resize=1536%2C1500&ssl=1",
+        "Country": "Egipt",
+        "City": "Aswan",
+        "Price": "24800",
+        "Objectives": ["Baron Palace", "Luxor", "Marea Rosie", "Marina din Hurghada", "Moscheea El Mina", "Templul Karnak", "Templul lui Khons", "Marele Templu al lui Amon"],
+        "AvailableRooms": "144"
+    },
+    {
+        "Name": "Tenerife",
+        "Description": "Frumusetea de a te plimba cu marea mereu la orizont. Sentimentul de a-ti lasa amprentele picioarelor pe nisip. Racoarea brusca a Atlanticului atunci cand inoti. Bucuria de a avea ca tovaras de calatorie soarele. Ce descriere minunata, nu? Cam asa ar arata o vacanta in Insula Eternei Primaveri.",
+        "LogoImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2021/10/IMG_1913.jpeg?resize=768%2C1024&ssl=1",
+        "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2021/10/IMG_1550.jpeg?resize=1536%2C1500&ssl=1",
+        "Country": "Spania",
+        "City": "Tenerife",
+        "Price": "9800",
+        "Objectives": ["Plajele din Tenerife", "Masivul Teide", "Loro Parque", "Siam Park, Regatul Apei", "Masca, satul izolat"],
+        "AvailableRooms": "429"
+    },
+    {
+        "Name": "Budapesta",
+        "Description": "Istoria Budapestei dateaza cu mult inainte ca Budapesta sa fi existat. Orasul numit acum Budapesta a inceput ca o asezare celtica, iar in secolul I a devenit orasul antic roman Aquincum. Pana in anul 1873, au existat 2 orase separate,  Buda si Pesta, despartite de Dunare. Budapesta a devenit oficial Budapesta dupa ce cele doua au fost unite, servind drept co-capitala a Imperiului Austro-Ungar. Asadar, vorbim de un oras impartit in doua districte.",
+        "LogoImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2021/10/IMG_3570.jpeg?resize=768%2C1024&ssl=1",
+        "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2021/10/IMG_3481.jpeg?resize=1536%2C1500&ssl=1",
+        "Country": "Ungaria",
+        "City": "Budapesta",
+        "Price": "28000",
+        "Objectives": ["Castelul Buda", "Bastionul Pescarilor", "Biserica Matthias", "Parlamentul Ungariei", "Podurile din Budapesta", "Baile Termale din Budapesta"],
+        "AvailableRooms": "348"
+    }
+]

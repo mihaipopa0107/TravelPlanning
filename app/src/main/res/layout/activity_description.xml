@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".DescriptionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Home / All Locations"
+                            android:textAlignment="center"
+                            android:textColor="#4F90C3"
+                            android:textSize="20sp"
+                            android:textStyle="bold|italic" />
+
+                        <ImageButton
+                            android:id="@+id/goHome"
+                            android:layout_width="50dp"
+                            android:layout_height="52dp"
+                            android:layout_marginLeft="165dp"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@mipmap/go" />
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/poster"
+                            android:layout_width="123dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="50"
+                            android:scaleType="fitCenter"
+                            android:visibility="visible"
+                            tools:visibility="visible" />
+
+                        <LinearLayout
+                            android:layout_width="273dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="25dp"
+                            android:layout_weight="50"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/TravelName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Name"
+                                android:textColor="#CF9073"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/TravelDescription"
+                                android:layout_width="match_parent"
+                                android:layout_height="162dp"
+                                android:scrollbars="vertical"
+                                android:text="Description" />
+
+                            <TextView
+                                android:id="@+id/More"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="More"
+                                android:textAlignment="center"
+                                android:textColor="#4E4D4D"
+                                android:textSize="20sp"
+                                android:textStyle="bold|italic" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/starAverage"
+                                    android:layout_width="8dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@android:drawable/star_big_on" />
+
+                                <TextView
+                                    android:id="@+id/stars"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="-50dp"
+                                    android:layout_weight="1"
+                                    android:text="0"
+                                    android:textColor="#9A6C3A"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="305dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Payment Note"
+                                android:textAlignment="center"
+                                android:textColor="#8392A1"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/totalPrice"
+                                android:layout_width="99dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="0 $"
+                                android:textAlignment="center"
+                                android:textColor="#14A44D"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal">
+
+                                <SeekBar
+                                    android:id="@+id/seekBar"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight="1"
+                                    android:progress="1" />
+
+                                <TextView
+                                    android:id="@+id/maxStock"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="1"
+                                    android:textAlignment="viewStart"
+                                    android:textColor="#2B7E61"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/buy"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="160dp"
+                                android:layout_marginRight="120dp"
+                                android:text="Buy"
+                                app:cornerRadius="10dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/objectives"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scrollbars="vertical"
+                        android:textColor="#3B71CA"
+                        android:textSize="16sp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/showPostRating"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="51dp"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/message"
+                                android:layout_width="288dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ems="10"
+                                android:hint="Message..."
+                                android:inputType="text" />
+
+                            <ImageButton
+                                android:id="@+id/commit"
+                                style="@android:style/Widget.ImageButton"
+                                android:layout_width="5dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:scaleType="fitCenter"
+                                app:srcCompat="@mipmap/sent" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="44dp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="8dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_weight="1"
+                                android:text="Rate Us"
+                                android:textAlignment="center"
+                                android:textColor="#986B53"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <RatingBar
+                                android:id="@+id/rating"
+                                android:layout_width="113dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="25dp"
+                                android:layout_weight="1"
+                                android:max="5"
+                                android:numStars="5"
+                                android:rating="0"
+                                android:stepSize="0" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/showWarning"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    tools:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="You cannot add another review."
+                            android:textAlignment="center"
+                            android:textColor="#DC4C64"
+                            android:textSize="16sp"
+                            android:textStyle="bold|italic" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ListView
+                                android:id="@+id/postRatingAll"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                    </ScrollView>
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
