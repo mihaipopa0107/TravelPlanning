@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50">
+
+        <ImageView
+            android:id="@+id/travelLogo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="50"
+            android:scaleType="fitCenter"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/travelName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="50"
+            android:text="Muzeul Tampitilor"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/travelLocation"
+            android:layout_width="69dp"
+            android:layout_height="59dp"
+            android:text="Craiova, Romania" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="33.3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/travelTotalPrice"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="6000 $"
+                android:textAlignment="center"
+                android:textColor="#5cb85c"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/plannedAt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:layout_weight="1"
+                    android:text="16/05/2023"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageButton
+                    android:id="@+id/cancelTravel"
+                    android:layout_width="18dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#CDC2AEFB"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@android:drawable/ic_delete" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </TableRow>
+
+</LinearLayout>

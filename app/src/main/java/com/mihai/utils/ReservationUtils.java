@@ -2,6 +2,7 @@ package com.mihai.utils;
 
 import com.mihai.core.ReservationViewModel;
 import com.mihai.models.Location;
+import com.mihai.models.PostRating;
 import com.mihai.models.Reservation;
 import com.orm.query.Select;
 
@@ -13,6 +14,24 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class ReservationUtils {
+    public static boolean cancelReservation(Long id) {
+        if(Session.IsAuthenticated()) {
+            Long accountId = Session.GetAccountId();
+
+            List<Reservation> postRatingList = Select.from(Reservation.class).list().stream()
+                    .filter(e -> e.getAccountId() == accountId && e.getId() == id).collect(Collectors.toList());
+
+            if(postRatingList.size() == 1) {
+                /* there exists such travel location */
+                postRatingList.get(0).delete();
+                return true;
+            }
+
+            return false;
+        }
+
+        return false;
+    }
     public static List<ReservationViewModel> getReservations() {
         if(Session.IsAuthenticated()) {
             Long accountId = Session.GetAccountId();
@@ -40,6 +59,8 @@ public class ReservationUtils {
 
                 /* add reservation model to list */
                 double totalPrice = reservationList.get(k).getAvailableRooms() * locations.get(0).getPrice();
+                model.setPosition(locations.get(0).getCity() + ", " + locations.get(0).getCountry());
+
                 model.setTotalPrice(totalPrice);
                 list.add(model);
             }

@@ -19,6 +19,17 @@ public class Session {
         isAdmin = account.getAdmin();
     }
 
+    public static void Logout() {
+        if(IsAuthenticated()) {
+            isAuthorized = false;
+            TravelLocationId = -1L;
+            accountId = 0L;
+            username = "";
+            avatar = "";
+            isAdmin = false;
+        }
+    }
+
     public static Long getTravelLocationId() {
         return TravelLocationId;
     }

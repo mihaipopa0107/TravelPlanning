@@ -35,7 +35,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/countryCity"
+                android:id="@+id/travelTotalPrice"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:text="TextView"

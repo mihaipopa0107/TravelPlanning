@@ -3,6 +3,7 @@ package com.mihai.core;
 public class ReservationViewModel {
     private Long id;
     private int AvailableRooms;
+    private String Position;
     private String PlannedAt;
     private Long AccountId;
     private Long LocationId;
@@ -31,9 +32,15 @@ public class ReservationViewModel {
     public String getLocationName() {
         return LocationName;
     }
-
+    public String getPosition() {
+        return Position;
+    }
     public void setLocationName(String locationName) {
         LocationName = locationName;
+    }
+
+    public void setPosition(String position) {
+        Position = position;
     }
 
     public Long getId() {

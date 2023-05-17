@@ -51,7 +51,7 @@ public class TravelAdapter extends ArrayAdapter<LocationViewModel> {
         if(convertView == null) row = inflater.inflate(resource, parent, false);
 
         TextView textName = (TextView) row.findViewById(R.id.textName);
-        TextView textCountryCity = (TextView) row.findViewById(R.id.countryCity);
+        TextView textCountryCity = (TextView) row.findViewById(R.id.travelTotalPrice);
         ImageView imageFlag = (ImageView) row.findViewById(R.id.logo);
 
         try {

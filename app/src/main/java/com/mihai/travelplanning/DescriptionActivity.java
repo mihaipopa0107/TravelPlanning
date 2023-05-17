@@ -5,8 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -82,6 +86,47 @@ public class DescriptionActivity extends AppCompatActivity {
             Session.setTravelLocationId(-1L);
             goToHomePage();
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        if(!Session.IsAuthenticated()) return false;
+        MenuItem account = menu.add(Session.getUsername());
+        account.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
+
+        try {
+            File file = new File(Session.getAvatar());
+            byte[] buffer = Files.readAllBytes(file.toPath());
+            Bitmap bm = BitmapFactory.decodeByteArray(buffer, 0, buffer.length);
+
+            // set account logo image to option menu
+            Bitmap src = Bitmap.createScaledBitmap(bm, 192, 192, false);
+            BitmapDrawable icon = new BitmapDrawable(src);
+            account.setIcon(icon);
+        } catch (IOException e) {
+            String cause = e.getCause().toString();
+            Log.w("AccountManager", cause);
+        }
+
+        MenuItem travels = menu.add("My travels");
+        MenuItem signOutMenu = menu.add("Sign out");
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getTitle().toString().compareTo("My travels") == 0) {
+            /* go to reservation list view page */
+            Intent reservationPage = new Intent(this, ReservationActivity.class);
+            startActivity(reservationPage);
+        } else {
+            /* sign out and go to the account signin page */
+            Session.Logout();
+            Intent signoutPage = new Intent(this, SigninActivity.class);
+            startActivity(signoutPage);
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     private void sendPostRating() {

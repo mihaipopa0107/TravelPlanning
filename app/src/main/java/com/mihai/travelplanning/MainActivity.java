@@ -9,9 +9,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
@@ -21,14 +18,12 @@ import com.mihai.core.LocationObjectModel;
 import com.mihai.core.LocationViewModel;
 import com.mihai.core.TravelAdapter;
 import com.mihai.core.TravelSearchFilter;
-import com.mihai.models.Location;
 import com.mihai.utils.LocationUtils;
 import com.mihai.utils.Session;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -64,10 +59,11 @@ public class MainActivity extends AppCompatActivity {
             EditText city = findViewById(R.id.city);
 
             filter = new TravelSearchFilter();
-            if(!name.getText().toString().isEmpty()) filter.setName(name.getText().toString());
-            if(!country.getText().toString().isEmpty()) filter.setCountry(country.getText().toString());
+            if (!name.getText().toString().isEmpty()) filter.setName(name.getText().toString());
+            if (!country.getText().toString().isEmpty())
+                filter.setCountry(country.getText().toString());
 
-            if(!city.getText().toString().isEmpty()) filter.setCity(city.getText().toString());
+            if (!city.getText().toString().isEmpty()) filter.setCity(city.getText().toString());
             SearchTravels(filter);
         });
     }
@@ -103,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        if(!Session.IsAuthenticated()) return false;
+        if (!Session.IsAuthenticated()) return false;
         MenuItem account = menu.add(Session.getUsername());
         account.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
 
@@ -124,5 +120,21 @@ public class MainActivity extends AppCompatActivity {
         MenuItem travels = menu.add("My travels");
         MenuItem signOutMenu = menu.add("Sign out");
         return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getTitle().toString().compareTo("My travels") == 0) {
+            /* go to reservation list view page */
+            Intent reservationPage = new Intent(this, ReservationActivity.class);
+            startActivity(reservationPage);
+        } else {
+            /* sign out and go to the account signin page */
+            Session.Logout();
+            Intent signoutPage = new Intent(this, SigninActivity.class);
+            startActivity(signoutPage);
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

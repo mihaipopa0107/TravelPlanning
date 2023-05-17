@@ -6,7 +6,7 @@
         "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/09/IMG_4779.jpeg?resize=1536%2C1500&ssl=1",
         "Country": "Romania",
         "City": "Humor",
-        "Price": "4800",
+        "Price": "480",
         "Objectives": ["Manastire Humor", "Manastirea Voronet", "Vale Humor Residence", "Salina Cacica", "Piatra Pinului si Soimului"],
         "AvailableRooms": "184"
     },
@@ -17,7 +17,7 @@
         "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/09/IMG_9595.jpeg?resize=1536%2C1500&ssl=1",
         "Country": "Romania",
         "City": "Brasov",
-        "Price": "6472",
+        "Price": "647",
         "Objectives": ["Castelul Bran", "Cetatea Rasnov", "Dino Park", "Sanctuarul de ursi", "Pestera", "Magura"],
         "AvailableRooms": "96"
     },
@@ -28,7 +28,7 @@
         "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/08/IMG_3915.jpeg?resize=1536%2C1500&ssl=1",
         "Country": "Grecia",
         "City": "Rethymno",
-        "Price": "14580",
+        "Price": "145",
         "Objectives": ["Fantana Rimondi", "Fortezza, fortareata venetiana din Rethymno", "Vechiul port venetian", "Plaja din Rethymno", "Moscheea Neratze", "Porta Guora", "Muzeul Arheologic din Rethymno", "Manastirea Arkadi"],
         "AvailableRooms": "428"
     },
@@ -39,7 +39,7 @@
         "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/07/IMG_2317.jpeg?resize=1536%2C1500&ssl=1",
         "Country": "Iordania",
         "City": "Jerash",
-        "Price": "5400",
+        "Price": "540",
         "Objectives": ["Regatul Hasemit al Iordaniei", "Petra, orasul sapat in piatra", "Wadi Rum", "Marea Moarta", "Rezervatia si satul Dana", "Jerash"],
         "AvailableRooms": "272"
     },
@@ -50,7 +50,7 @@
         "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/07/IMG_8390.jpeg?resize=1536%2C1500&ssl=1",
         "Country": "Romania",
         "City": "Brasov",
-        "Price": "9000",
+        "Price": "900",
         "Objectives": ["Castelul Bran", "Cascada Moara Dracului", "Rezervatia de ursi", "Cetatea Rasnov"],
         "AvailableRooms": "288"
     },
@@ -61,7 +61,7 @@
         "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/05/IMG_7158.jpeg?resize=1536%2C1500&ssl=1",
         "Country": "Romania",
         "City": "Cluj-Napoca",
-        "Price": "8680",
+        "Price": "868",
         "Objectives": ["Lacul Tarnita", "Salina Turda", "Piatra lui Dan", "Piatra lui Lucaci", "Cheile Turzii", "Partia Marisel"],
         "AvailableRooms": "2166"
     },
@@ -72,7 +72,7 @@
         "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/06/IMG_6955.jpeg?resize=1536%2C1500&ssl=1",
         "Country": "Romania",
         "City": "Cluj-Napoca",
-        "Price": "4570",
+        "Price": "457",
         "Objectives": ["Laguna Albastra", "Stufarisurile de la Sic", "Lacul Tarnita", "Piatra lui Lucaci", "Castelul Banfyy", "Mina Terezia", "Mina Rudolf", "Sala ecourilor", "Altarul", "Galeria Franz Josef"],
         "AvailableRooms": "344"
     },
@@ -83,7 +83,7 @@
         "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/05/IMG_8795.jpeg?resize=1536%2C1500&ssl=1",
         "Country": "Belgia",
         "City": "Bruges",
-        "Price": "18400",
+        "Price": "1840",
         "Objectives": ["Grote Markt", "Cetatea Namur", "Cetatea Dinant", "Meuse", "Catedrala Notre-Dame", "Casa lui Adolphe Sax", "Bruxelles", "Liege"],
         "AvailableRooms": "304"
     },
@@ -94,7 +94,7 @@
         "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2022/03/IMG_5302.jpeg?resize=2000%2C1500&ssl=1",
         "Country": "Anglia",
         "City": "Londra",
-        "Price": "14800",
+        "Price": "1480",
         "Objectives": ["Turnul Londrei", "Ochiul Londrei", "Teatru Globe al lui Shakespeare", "Casele Parlamentului", "Big Ben", "Westminster Abbey"],
         "AvailableRooms": "798"
     },
@@ -105,7 +105,7 @@
         "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2021/12/IMG_0393.jpeg?resize=1536%2C1500&ssl=1",
         "Country": "Egipt",
         "City": "Aswan",
-        "Price": "24800",
+        "Price": "248",
         "Objectives": ["Baron Palace", "Luxor", "Marea Rosie", "Marina din Hurghada", "Moscheea El Mina", "Templul Karnak", "Templul lui Khons", "Marele Templu al lui Amon"],
         "AvailableRooms": "144"
     },
@@ -116,7 +116,7 @@
         "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2021/10/IMG_1550.jpeg?resize=1536%2C1500&ssl=1",
         "Country": "Spania",
         "City": "Tenerife",
-        "Price": "9800",
+        "Price": "980",
         "Objectives": ["Plajele din Tenerife", "Masivul Teide", "Loro Parque", "Siam Park, Regatul Apei", "Masca, satul izolat"],
         "AvailableRooms": "429"
     },
@@ -127,7 +127,7 @@
         "PosterImage": "https://i0.wp.com/siltrips.com/wp-content/uploads/2021/10/IMG_3481.jpeg?resize=1536%2C1500&ssl=1",
         "Country": "Ungaria",
         "City": "Budapesta",
-        "Price": "28000",
+        "Price": "280",
         "Objectives": ["Castelul Buda", "Bastionul Pescarilor", "Biserica Matthias", "Parlamentul Ungariei", "Podurile din Budapesta", "Baile Termale din Budapesta"],
         "AvailableRooms": "348"
     }
