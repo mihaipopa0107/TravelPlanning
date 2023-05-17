@@ -34,6 +34,7 @@
             android:id="@+id/reservations"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#afafcb"
             tools:visibility="visible" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

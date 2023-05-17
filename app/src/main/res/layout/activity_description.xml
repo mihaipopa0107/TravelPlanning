@@ -9,12 +9,13 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#c3c3df">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -45,6 +46,7 @@
                             android:layout_width="50dp"
                             android:layout_height="52dp"
                             android:layout_marginLeft="165dp"
+                            android:backgroundTint="#c3c3df"
                             android:scaleType="fitCenter"
                             app:srcCompat="@mipmap/go" />
                     </LinearLayout>
@@ -284,6 +286,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_marginRight="20dp"
                                 android:layout_weight="1"
+                                android:backgroundTint="#c3c3df"
                                 android:scaleType="fitCenter"
                                 app:srcCompat="@mipmap/sent" />
 

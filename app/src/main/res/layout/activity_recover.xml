@@ -30,12 +30,13 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="#C3C3DF"
                     android:orientation="vertical">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="56dp"
-                        android:background="#91D3C5"
+                        android:background="#98ADE1"
                         android:orientation="horizontal"
                         android:textAlignment="center">
 
@@ -46,7 +47,7 @@
                             android:layout_marginTop="5dp"
                             android:text="Recover Account"
                             android:textAlignment="center"
-                            android:textColor="#886969"
+                            android:textColor="#696C88"
                             android:textSize="32sp"
                             android:textStyle="bold"
                             android:translationY="2dp" />
@@ -57,6 +58,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginBottom="180dp"
+                        android:background="#C3C3DF"
                         android:orientation="vertical">
 
                         <EditText
@@ -68,9 +70,8 @@
                             android:layout_marginRight="50dp"
                             android:layout_marginBottom="20dp"
                             android:ems="10"
-                            android:hint="Address.."
-                            android:inputType="textEmailAddress"
-                            android:textColorHint="#856060" />
+                            android:hint="Address"
+                            android:inputType="textEmailAddress" />
 
                         <Button
                             android:id="@+id/goBack"
@@ -95,7 +96,7 @@
                         android:layout_width="409dp"
                         android:layout_height="140dp"
                         android:layout_marginTop="-70dp"
-                        android:background="#91D3C5"
+                        android:background="#98ADE1"
                         android:minHeight="80dp"
                         android:orientation="horizontal"
                         android:paddingBottom="30dp">

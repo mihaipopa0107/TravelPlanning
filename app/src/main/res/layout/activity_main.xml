@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C3C3DF"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -13,12 +14,14 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
 
             <EditText
                 android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
                 android:width="120dp"
                 android:ems="10"
                 android:hint="Name"
@@ -28,6 +31,7 @@
                 android:id="@+id/country"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
                 android:width="120dp"
                 android:ems="10"
                 android:hint="Country"
@@ -37,6 +41,7 @@
                 android:id="@+id/city"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
                 android:width="120dp"
                 android:ems="10"
                 android:hint="City"
@@ -46,16 +51,18 @@
                 android:id="@+id/search"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#86FFFFFF"
+                android:layout_marginTop="2dp"
+                android:background="#C3C3DF"
                 app:srcCompat="@mipmap/search" />
         </TableRow>
 
         <ListView
             android:id="@+id/travelsList"
             android:layout_width="match_parent"
-            android:layout_height="495dp"
-            android:layout_marginTop="40dp"
-            android:background="#D8D8D8" />
+            android:layout_height="633dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="#afafcb" />
 
     </LinearLayout>
 
